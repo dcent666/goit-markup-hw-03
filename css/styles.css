@@ -10,7 +10,7 @@ body {
   --alternative-color: rgb(255, 255, 255);
   --background-color: rgb(47, 48, 58);
   --alternative-color-transparent: rgba(255, 255, 255, 60%);
-  --portfolio-button-color: rgb(245, 244, 250)
+  --portfolio-button-color: rgb(245, 244, 250);
 }
 
 .logo {
@@ -18,7 +18,6 @@ body {
   font-size: 1.625rem;
   text-decoration: none;
   color: var(--logo-color);
-
 }
 
 .logo:hover,
@@ -27,7 +26,7 @@ body {
 }
 
 .active-logo {
-  color: var(--active-link-color)
+  color: var(--active-link-color);
 }
 
 .no-decoration-list {
@@ -62,7 +61,7 @@ body {
   font-size: 2.75rem;
   font-weight: 900;
   color: var(--alternative-color);
-  background-color: var(--background-color);
+  margin: 0;
 }
 
 .index-button {
@@ -70,6 +69,12 @@ body {
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .index-button:hover,
@@ -161,4 +166,29 @@ body {
 
 .description {
   color: var(--contact-color);
+}
+.container {
+  width: 1200px;
+}
+.header {
+  display: flex;
+  border-bottom: rgb(236, 236, 236);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.h-nav {
+  display: flex;
+  margin-left: 93px;
+  width: 254px;
+  justify-content: space-between;
+}
+.section {
+  display: flex;
+}
+.section-hero {
+  width: 100%;
+  padding: 94px 0;
+  background-color: var(--background-color);
+  text-align: center;
 }
