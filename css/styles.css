@@ -1,0 +1,164 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(33, 33, 33);
+}
+
+:root {
+  --logo-color: rgb(0, 0, 0);
+  --active-link-color: rgb(33, 150, 243);
+  --contact-color: rgb(117, 117, 117);
+  --alternative-color: rgb(255, 255, 255);
+  --background-color: rgb(47, 48, 58);
+  --alternative-color-transparent: rgba(255, 255, 255, 60%);
+  --portfolio-button-color: rgb(245, 244, 250)
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.625rem;
+  text-decoration: none;
+  color: var(--logo-color);
+
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--active-link-color);
+}
+
+.active-logo {
+  color: var(--active-link-color)
+}
+
+.no-decoration-list {
+  list-style: none;
+}
+
+.single-site {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+.single-site:hover,
+.single-site:focus {
+  color: var(--active-link-color);
+}
+
+.contact {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--active-link-color);
+}
+
+.hero {
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: var(--alternative-color);
+  background-color: var(--background-color);
+}
+
+.index-button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.index-button:hover,
+.index-button:focus {
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
+}
+
+.lorem-ipsum-header {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.lorem-ipsum-item {
+  font-size: 0.875rem;
+  color: var(--contact-color);
+}
+
+.section-header {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profession {
+  color: var(--contact-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.alternative-logo {
+  color: var(--alternative-color);
+}
+
+.alternative-logo:hover,
+.alternative-logo:focus {
+  color: var(--active-link-color);
+}
+
+.contact-data {
+  font-style: inherit;
+  font-size: 0.875rem;
+}
+
+.city {
+  text-decoration: none;
+  color: var(--alternative-color);
+}
+
+.city:hover,
+.city:focus {
+  color: var(--active-link-color);
+}
+
+.contact-details {
+  text-decoration: none;
+  color: var(--alternative-color-transparent);
+}
+
+.contact-details:hover,
+.contact-details:focus {
+  color: var(--active-link-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--portfolio-button-color);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
+}
+
+.project {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.description {
+  color: var(--contact-color);
+}
