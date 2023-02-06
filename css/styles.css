@@ -7,6 +7,7 @@ body {
   --logo-color: rgb(0, 0, 0);
   --active-link-color: rgb(33, 150, 243);
   --contact-color: rgb(117, 117, 117);
+  --border-bottom-color: rgb(236, 236, 236);
   --alternative-color: rgb(255, 255, 255);
   --background-color: rgb(47, 48, 58);
   --alternative-color-transparent: rgba(255, 255, 255, 60%);
@@ -31,6 +32,7 @@ body {
 
 .no-decoration-list {
   list-style: none;
+  padding: 0;
 }
 
 .single-site {
@@ -45,6 +47,10 @@ body {
   color: var(--active-link-color);
 }
 
+.active-site {
+  color: var(--active-link-color);
+}
+
 .contact {
   font-size: 0.875rem;
   font-weight: 500;
@@ -56,7 +62,10 @@ body {
 .contact:focus {
   color: var(--active-link-color);
 }
-
+.h-mail {
+  margin-right: 50px;
+  margin-left: 371px;
+}
 .hero {
   font-size: 2.75rem;
   font-weight: 900;
@@ -169,19 +178,21 @@ body {
 }
 .container {
   width: 1200px;
+  margin: auto;
 }
 .header {
   display: flex;
-  border-bottom: rgb(236, 236, 236);
   justify-content: space-between;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-bottom-color);
   align-items: center;
-  padding: 0 15px;
 }
 .h-nav {
   display: flex;
-  margin-left: 93px;
-  width: 254px;
   justify-content: space-between;
+  width: 254px;
+  margin-left: 93px;
 }
 .section {
   display: flex;
