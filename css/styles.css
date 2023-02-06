@@ -103,6 +103,7 @@ body {
 .lorem-ipsum-item {
   font-size: 0.875rem;
   color: var(--contact-color);
+  line-height: 1.5rem;
 }
 
 .section-header {
@@ -203,4 +204,12 @@ body {
 .section-hero {
   background-color: var(--background-color);
   text-align: center;
+}
+.section-lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+}
+.card-lorem-ipsum {
+  width: 270px;
+  letter-spacing: 0.02em;
 }
