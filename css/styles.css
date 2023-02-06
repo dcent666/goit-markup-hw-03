@@ -67,10 +67,13 @@ body {
   margin-left: 371px;
 }
 .hero {
+  margin: 0 auto;
   font-size: 2.75rem;
   font-weight: 900;
   color: var(--alternative-color);
-  margin: 0;
+  width: 696px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .index-button {
@@ -195,11 +198,9 @@ body {
   margin-left: 93px;
 }
 .section {
-  display: flex;
+  padding: 94px 0;
 }
 .section-hero {
-  width: 100%;
-  padding: 94px 0;
   background-color: var(--background-color);
   text-align: center;
 }
