@@ -79,7 +79,6 @@ body {
 
 .index-button {
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   width: 200px;
@@ -176,10 +175,14 @@ body {
 
 .portfolio-button {
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 500;
+  width: 93px;
+  height: 38px;
+  padding: 0;
   background-color: var(--alt-background-color);
   cursor: pointer;
+  border: 0;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -235,4 +238,17 @@ body {
 .member-card {
   background-color: var(--alternative-color);
   border-radius: 0 0 4px 4px;
+}
+.section-flex-center {
+  display: flex;
+  justify-content: center;
+}
+.internal-button {
+  margin: 0 8px;
+}
+.section-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
 }
