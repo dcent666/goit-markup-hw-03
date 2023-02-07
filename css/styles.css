@@ -28,6 +28,7 @@ body {
 
 .active-logo {
   color: var(--active-link-color);
+  line-height: 1.9375rem;
 }
 
 .no-decoration-list {
@@ -132,6 +133,7 @@ body {
 
 .footer {
   background-color: var(--background-color);
+  padding: 60px 0;
 }
 
 .alternative-logo {
@@ -151,6 +153,8 @@ body {
 .city {
   text-decoration: none;
   color: var(--alternative-color);
+  line-height: 1.5rem;
+  margin-top: 20px;
 }
 
 .city:hover,
@@ -161,6 +165,8 @@ body {
 .contact-details {
   text-decoration: none;
   color: var(--alternative-color-transparent);
+  line-height: 1.5rem;
+  margin-top: 9px;
 }
 
 .contact-details:hover,
