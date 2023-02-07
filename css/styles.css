@@ -12,6 +12,7 @@ body {
   --background-color: rgb(47, 48, 58);
   --alternative-color-transparent: rgba(255, 255, 255, 60%);
   --alt-background-color: rgb(245, 244, 250);
+  --border-bottom-card-title-container-color: rgb(238, 238, 238);
 }
 
 .logo {
@@ -39,6 +40,7 @@ body {
 .single-site {
   font-size: 0.875rem;
   font-weight: 500;
+  letter-spacing: 0.02rem;
   text-decoration: none;
   color: inherit;
 }
@@ -55,6 +57,7 @@ body {
 .contact {
   font-size: 0.875rem;
   font-weight: 500;
+  letter-spacing: 0.02rem;
   text-decoration: none;
   color: var(--contact-color);
 }
@@ -80,6 +83,7 @@ body {
 .index-button {
   font-family: inherit;
   font-weight: 700;
+  letter-spacing: 0.06rem;
   cursor: pointer;
   width: 200px;
   height: 50px;
@@ -153,6 +157,7 @@ body {
   text-decoration: none;
   color: var(--alternative-color);
   line-height: 1.5rem;
+  letter-spacing: 0.03rem;
   margin-top: 20px;
 }
 
@@ -165,6 +170,7 @@ body {
   text-decoration: none;
   color: var(--alternative-color-transparent);
   line-height: 1.5rem;
+  letter-spacing: 0.03rem;
   margin-top: 9px;
 }
 
@@ -178,6 +184,7 @@ body {
   font-weight: 500;
   width: 93px;
   height: 38px;
+  letter-spacing: 0.03rem;
   padding: 0;
   background-color: var(--alt-background-color);
   cursor: pointer;
@@ -194,10 +201,16 @@ body {
 .project {
   font-size: 1.125rem;
   font-weight: 700;
+  line-height: 2.25rem;
+  letter-spacing: 0.06rem;
+  margin: 0;
 }
 
 .description {
   color: var(--contact-color);
+  line-height: 1.875rem;
+  letter-spacing: 0.03rem;
+  margin: 0;
 }
 .container {
   width: 1200px;
@@ -249,6 +262,15 @@ body {
 .section-flex-wrap {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
   margin-top: 50px;
+}
+.project-card {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--border-bottom-card-title-container-color);
+}
+.card-title {
+  margin: 20px 24px;
 }
